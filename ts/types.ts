@@ -9,8 +9,8 @@ type Book = {
 }
 
 
-function getAllBooks(): readonly Book[] {
-  const books = <const> [
+function getAllBooks(): Book[] {
+  const books =  [
     {id: 1, title: 'REfdf', category: Category.CSS, author: 'DF', available: true},
     {id: 2, title: 'wergvfedcjn', category: Category.HTML, author: 'DFxcv', available: false},
     {id: 3, title: ',nmsv jke', category: Category.JavaScript, author: 'dfgdv', available: true},
@@ -18,4 +18,19 @@ function getAllBooks(): readonly Book[] {
   ]
 
   return books
-} 
+}
+
+
+function getBookById(id: number): Book | undefined {
+  const books: Book[] = getAllBooks()
+
+  return books.find(book => book.id === id)
+}
+
+function checkoutBooks(...booksId: number[]): string[] {
+  return booksId
+    .map(id => getBookById(id))
+    .filter(book => book?.available)
+    .map(book => book!.title)
+}
+

@@ -22,7 +22,7 @@ console.log(arr.toString())
 
 
 // every doesnt mutate array
-// returns new boolean
+// returns boolean
 const result2 = arr.every(
   e => typeof e === 'string'
 )
@@ -31,7 +31,7 @@ console.log(result2) // true
 console.log(arr.toString())
 
 // some doesnt mutate array
-// returns new boolean
+// returns boolean
 const result3 = arr.some(
   e => e === 'a'
 )

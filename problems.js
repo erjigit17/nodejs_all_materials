@@ -29,7 +29,7 @@ If product id is:
 function isProductAvailable(product){
   return new Promise((resolve => {
     setTimeout( () => {
-      resolve(!(product.id % 2 === 0))
+      resolve(product.id % 2 === 1)
     } ,500)
   }))
 }

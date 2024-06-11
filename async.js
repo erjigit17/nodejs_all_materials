@@ -1,6 +1,42 @@
+const products = [
+  {id: 1, name: "Socks"},
+  {id: 2, name: "Pants"},
+  {id: 3, name: "Bag"},
+  {id: 4, name: "T-Shirt"},
+  {id: 5, name: "Scarf" }]
+
+
+function isProductAvailable(product){
+  return new Promise(resolve => {
+    setTimeout(() => {
+        resolve(!(product.id % 2 === 0))
+      }
+      , 500)
+  })
+}
+
+
+function getAvailableProducts(products) {
+  const promiseArr = []
+
+  for (const product of products) {
+    promiseArr.push(isProductAvailable(product))
+  }
+
+  Promise.all(promiseArr)
+    .then(value =>
+      products.filter((_, index ) => value[index])
+    )
+    .then(console.log)
+}
+
+getAvailableProducts(products)
+
+
+
 function  doAsync() {
   return new Promise((resolve => {
-    setTimeout(resolve(), 200)
+    setTimeout(() => resolve(42), 200)
   }))
 }
 

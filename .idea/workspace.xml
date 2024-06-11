@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ba83fca-f845-4b3d-978c-85458cbb01a2" name="Changes" comment="push changes to github">
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/contex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/object_literal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/flux.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/layred.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/microservices.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/asserts_value.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/function.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB.md" beforeDir="false" afterPath="$PROJECT_DIR$/DB.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/map_filter_every_some.js" beforeDir="false" afterPath="$PROJECT_DIR$/array/map_filter_every_some.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/async.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.js" beforeDir="false" afterPath="$PROJECT_DIR$/objects/objects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems.js" beforeDir="false" afterPath="$PROJECT_DIR$/problems.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2D7TYW2KOcyTRymbb0PH8iVvBpM" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showModules" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.16.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.47" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/objects" />
+      <recent name="$PROJECT_DIR$/MD_files" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push changes to github" />
+    <option name="LAST_COMMIT_MESSAGE" value="push changes to github" />
+  </component>
+</project>

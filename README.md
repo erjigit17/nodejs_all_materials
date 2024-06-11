@@ -2,7 +2,7 @@
 cmd-k v or ctrl-k v	Open preview to the Side
 cmd-shift-v or ctrl-shift-v	Open preview
 
-Node Core
+[Node Core](https://github.com/learning-zone/nodejs-interview-questions#q-what-is-nodejs-process-model)
 Intermediate knowledge of:
 Module system (require, JS modules, import weight)
 Node.js package managers (NPM, Yarn, Package Structure, package.json configuration, lock files)
