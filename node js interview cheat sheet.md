@@ -1,3 +1,27 @@
+net,
+http,
+restAPI
+GraphQl
+Socet.IO/ WebSocket
+gRPC
+
+bus шина для микросервисов. теория
+RebbitMQ
+Kafka
+сNats
+
+Grafana, Prometeus
+
+Redis
+
+JWT, acces refresh tocken, OAuth
+
+SOLID, GRASP, ООП, MVC, KISS
+
+хеширования модели OSI
+
+
+
 another cheat sheet https://gist.github.com/paulfranco/9f88a2879b7b7d88de5d1921aef2093b
 
 [Node Core](https://github.com/learning-zone/nodejs-interview-questions#q-what-is-nodejs-process-model)

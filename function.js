@@ -108,6 +108,3 @@ function sum(a, b= 1){
 }
 console.log(sum(1, null)) // 1
 console.log(sum(1, undefined)) // 2
-
-
-
