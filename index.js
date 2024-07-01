@@ -1,28 +1,43 @@
-class S {
-  constructor(data) {
-    this.index = 0
-    this.data = data
+var map = (arr, fn) => {
+  let result = [];
+  for(const [index, val] of arr.entries()) {
+      result.push(fn(val, index))
   }
+  return result;
+};
 
-  [Symbol.iterator] () {
-    return {
-      next: () => {
-        if (this.index < this.data.length) {
-          return {
-            value: this.data[this.index++],
-            done: false
-          }
-        } else {
-            this.index = 0
-            return {
-              value: void 0,
-              dane: true
-            }
-        }
-      }
-    }
-  }
-}
+var plusone = (n)=> n + 1;
+var plusI = (n, index) =>  n + index;
+var constant = () => 42;
+
+console.log(map([1,2,3], plusone))
+
+
+// class S {
+//   constructor(data) {
+//     this.index = 0
+//     this.data = data
+//   }
+
+//   [Symbol.iterator] () {
+//     return {
+//       next: () => {
+//         if (this.index < this.data.length) {
+//           return {
+//             value: this.data[this.index++],
+//             done: false
+//           }
+//         } else {
+//             this.index = 0
+//             return {
+//               value: void 0,
+//               dane: true
+//             }
+//         }
+//       }
+//     }
+//   }
+// }
 
 // const iterator
 // const express = require ('express')
