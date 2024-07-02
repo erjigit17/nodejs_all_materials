@@ -1,3 +1,23 @@
+const data = {a:{ a: 0, b: {a: 0, b: 1, c: 0}, c: 3}, b: { a: 4 }};
+// get sum
+
+function sum(tree){
+  let r = 0;
+
+  if (typeof tree !== 'object') {
+    r += tree
+  } else {
+    for(const value of Object.values(tree)) {
+     r += sum(value)
+    }
+  }
+
+  return r
+}
+
+console.log(sum(data))
+
+
 /*
 TASK:
 You have list of products each with name and id.
